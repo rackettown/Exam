@@ -10,11 +10,11 @@ body {
     grid-template-columns: repeat(4, [col] 100px ) ;
     grid-template-rows: repeat(3, [row] auto  );
     background-color: rgb(158, 158, 158);
-    color: #444;
+    color: rgb(107, 93, 119);
   }
 
   .box {
-    background-color: #444;
+    background-color: rgb(78, 71, 94);
     color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -50,3 +50,28 @@ body {
     grid-row: row 3;
   }
 
+
+
+
+
+
+
+ /* unvisited link */
+a:link {
+  color: rgb(160, 253, 217);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(71, 214, 219);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
