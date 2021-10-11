@@ -25,18 +25,25 @@ body {
     grid-column: col / span 2;
     grid-row: row ;
   }
+
+
   header {
     grid-column: col 3 / span 2 ;
     grid-row: row ;
   }
+
+
   nav {
     grid-column: col ;
     grid-row: row 2 ;
   }
+
+
   main {
     grid-column: col 2 / span 3 ;
     grid-row: row 2 ;
   }
+
 
   footer {
     grid-column: col / span 4;
